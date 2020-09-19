@@ -93,13 +93,13 @@ int main()
 
   printf("Multiplicação Lógica de Matrizes\n");
   printf("Vamos multiplicar duas matrizes %d x %d, usando %d processos\n", N, N, P);
-  // printf("\nPrimeira matriz\n");
-  // ler_matriz(mat1);
+  printf("\nPrimeira matriz\n");
+  ler_matriz(mat1);
 
-  // printf("\nSegunda matriz\n");
-  // ler_matriz(mat2);
+  printf("\nSegunda matriz\n");
+  ler_matriz(mat2);
 
-  mock(mat1, mat2);
+  // mock(mat1, mat2);
 
   printf("\n\nPrimeira matriz\n");
   escrever_matriz(mat1);
